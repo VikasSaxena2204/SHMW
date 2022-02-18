@@ -1,0 +1,199 @@
+/* CSS of webpage */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*   background-color: rgb(242, 248, 250); */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li,
+a {
+    font-weight: 500;
+    font-size: 1em;
+    color: #141718;
+    text-decoration: none;
+}
+
+header,
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+.logo {
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    ;
+    height: 40px;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a:hover {
+    color: rgb(243, 4, 4, 1);
+    transition: all 0.3s ease 0s;
+}
+
+.contacts {
+    padding: 9px 25px;
+    color: rgb(8, 8, 8);
+    background-color: rgb(252, 234, 233, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.contacts:hover {
+    background-color: rgba(240, 195, 193, 0.9);
+    box-shadow: 12px 10px 12px black;
+}
+
+#divblock {
+    background-color: rgb(90, 4, 250, 1);
+    border: none;
+    width: 100%;
+    color: rgb(252, 234, 233, 1);
+}
+
+.top {
+    text-align: left;
+    height: 230px;
+    padding: 50px;
+}
+
+.bottom {
+    text-align: center;
+    height: 200px;
+    padding: 50px;
+}
+
+.preorder {
+    padding: 12px 25px;
+    margin: 0px 10px !important;
+    color: rgb(8, 8, 8);
+    background-color: rgb(252, 234, 233, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.preorder:hover {
+    background-color: rgba(240, 195, 193, 0.9);
+    color: rgb(243, 4, 4, 1);
+    box-shadow: 15px 10px 15px black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: relative;
+    margin: 15px;
+    background-color: rgb(252, 246, 246, 1);
+}
+
+.div1 {
+    width: 100%;
+    height: 40px;
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+.div2,
+.div3,
+.div4 {
+    width: 100%;
+    height: 300px;
+    padding: auto;
+    margin: 10px;
+}
+
+.para {
+    color: rgb(116, 115, 115);
+}
+
+#image1,
+#image3 {
+    width: 28%;
+    height: 260px;
+    float: right;
+    clear: right;
+    margin: 10px;
+}
+
+#image2 {
+    width: 28%;
+    height: 260px;
+    float: left;
+    clear: left;
+    margin: 10px;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    background-color: antiquewhite;
+}
+
+.testhead {
+    width: 100%;
+    height: 35px;
+    margin: 10px 0px 0px;
+    padding: 20px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.test1,
+.test2,
+.test3 {
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 20px;
+}
+
+.name {
+    color: gray;
+}
+
+.test1:hover,
+.test2:hover,
+.test3:hover {
+    box-shadow: 15px 10px 15px;
+    cursor: pointer;
+}
+
+footer {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footerli {
+    list-style: none;
+
+}
+
+.footerli li a:hover {
+    color: rgb(243, 4, 4, 1);
+}
+
+.contactbody {
+    background-color: antiquewhite;
+}
